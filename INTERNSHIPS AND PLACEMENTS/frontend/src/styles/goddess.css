@@ -1,0 +1,26 @@
+.floating-goddess {
+    animation: float 6s ease-in-out infinite;
+    filter: drop-shadow(0 0 15px rgba(255, 223, 0, 0.7));
+  }
+  
+  @keyframes float {
+    0% { transform: translateY(0px) rotate(-3deg); }
+    50% { transform: translateY(-25px) rotate(3deg); }
+    100% { transform: translateY(0px) rotate(-3deg); }
+  }
+  
+  .aura-effect {
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: radial-gradient(circle, 
+      rgba(255,215,0,0.4) 0%, 
+      rgba(255,215,0,0) 70%);
+    animation: pulse 4s infinite;
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(0.95); opacity: 0.8; }
+    50% { transform: scale(1.05); opacity: 0.4; }
+    100% { transform: scale(0.95); opacity: 0.8; }
+  }

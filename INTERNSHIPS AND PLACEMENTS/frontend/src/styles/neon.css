@@ -1,0 +1,14 @@
+.neon-text {
+    text-shadow: 
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #ffdd00,
+      0 0 30px #ffdd00,
+      0 0 40px #ffdd00;
+    animation: neonPulse 1.5s infinite alternate;
+  }
+  
+  @keyframes neonPulse {
+    from { opacity: 0.8; }
+    to { opacity: 1; }
+  }
